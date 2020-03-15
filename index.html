@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/base.css">
+	<script src="webOSTVjs-1.1.0/webOSTV.js" charset="utf-8"></script>
+	<script src="webOSTVjs-1.1.0/webOSTV-dev.js" charset="utf-8"></script>
+	<script src="js/video.js"></script>
+</head>
+<body onload="cargarLista()" >
+	
+	<!-- <input id="direccion" value="https://vod-progressive.akamaized.net/exp=1580576813~acl=%2A%2F708213662.mp4%2A~hmac=b8fd830bdd0f243e067b9670c789dd2b9b89051b4c49ae374aad73def50bca63/vimeo-prod-skyfire-std-us/01/1512/8/207561527/708213662.mp4?download=1&filename=Video+Of+People+Walking.mp4" onchange="cambiaDireccion()"/>
+	<button onclick="play()">play</button>
+	<button onclick="stop()">stop</button>-->
+	<div id="izquierdo">
+		<button onclick="back()" id="back">Atras</button>
+		<button onclick="play()">play</button>
+		<button onclick="stop()">play</button>
+		<div id="canales">
+			<div onclick="reproducir('http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/index.m3u8',this)">Canal 1</div>
+			<div onclick="reproducir('http://z.iptvsubscription.org:80/2ucpNdKgqy/La1LlABcKd/48626',this)">La sexta</div>
+			
+			
+		</div>
+	</div>
+	<div id="derecho">
+		<div id="pantalla">
+		</div>
+	<!-- http://217.182.77.27/live/alcarriatv-livestream.m3u8 -->
+		
+		<pre id="log"></pre>
+	</div>
+	<!-- 
+	src="http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/telemadrid1/index.m3u8" muted="true" autoplay="true"
+		<object id='av-player' type='application/avplayer'></object>
+	<source src="http://iptv8.premium-stv.com:2052/ARAB@PRO1@m/nxzcK@Hf@5gy/2286" type="video/mp4" />
+	<div>
+		<h1>Hola</h1>
+		
+		<div></div>
+		
+	</div>-->
+</body>
+</html>
